@@ -69,27 +69,25 @@ li a:hover {
 .Alvardag {
 	display: grid;
 	grid-template-columns: 10fr 20fr;
+	margin-bottom: 100px;
 }
 
-.Alvardag-kuva {
-	background-image: url(../Pics_Kunnonrakennus/Alvardag.png);
+.Siparila-kuva {
+	background-image: url(../Pics_Kunnonrakennus/Siparila.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	
 	margin: 50px;
 }
 
 .Alvardag-tekstit {
 	margin: 50px;
 	height: auto;
+	color: black;
 }
 
-.Kohteet {
-	display: grid;
-	grid-template-columns: 5fr 5fr 5fr;
+.Kohde {
 	color: black;
-	text-align: left;
-	font-size: 15px;
+	text-align: justify;
 }
 
 
@@ -259,17 +257,20 @@ li a:hover {
 
 	.Alvardag {
 	display: grid;
-	grid-template-columns: 7fr 20fr;
-}
+	grid-template-columns: 4fr 35fr;
+	margin-bottom: 50px;
+	}
 
-	.Alvardag-kuva {
-		background-image: url(../Pics_Kunnonrakennus/Alvardag2.png);
+	.Siparila-kuva {
+		background-image: url(../Pics_Kunnonrakennus/Siparila2.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		margin-top: 50px;
-		padding-left: 25px;
-		margin: 0px;
-		height: 300px;
+		
+		margin-left: 3px;
+		margin-right: 3px;
+		margin-bottom: 20px;
+		height: 200px;
 		width: auto;
 	}
 
@@ -282,9 +283,9 @@ li a:hover {
 		text-align: left;
 	}
 
-	.Kohteet {
-		display: grid;
-		grid-template-columns: 5fr 5fr 5fr;
+	.Kohde {
+		color: black;
+		text-align: justify;
 	}
 
 
