@@ -1,0 +1,177 @@
+body {
+	margin:  0px;
+}
+
+.navi {
+	margin: 0px;
+	background-color: #303030;
+	display: block;
+	width: 100%;
+	height: 60px;
+	top: 0px;
+	padding: 0px;
+}
+
+a {
+	color: floralwhite;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	height: 38px;
+	padding: 12px;
+	font-size: 25px;
+	text-align: center;
+	top:  50%;	
+}
+
+
+
+li a:hover {
+	background-color: lightgray;
+}
+
+.Teemakuva {
+	background-image:url(./Pics_Kunnonrakennus/Teemakuva.jpg);
+	background-size: 100%;
+}
+
+.headline {
+	color: floralwhite;
+	padding-top: 400px;
+	padding-bottom: 300px;
+	font-size: 100px;
+	text-align: center;
+}
+
+.outline {
+	color: #000000;
+	text-shadow: #000 0px 0px 1px;
+}
+
+.style {
+	color: black;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 80px;
+	padding-bottom: 5px;
+}
+
+.p0 {
+	margin: 80px;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+
+.p1 {
+	font-size: 25px;
+}
+
+.p2 {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+
+@media (max-width:450px){
+
+	.navi {
+		margin: 0px;
+		background-color: #303030;
+		display: block;
+		width: 100%;
+		height: 45px;
+		top: 0px;
+		padding: 0px;
+	}
+
+	a {
+		color: floralwhite;
+		font-weight: bold;
+		text-decoration: none;
+		display: block;
+		height: 20px;
+		padding: 12px;
+		font-size:15px;
+		text-align: center;
+		top:  50%;	
+	}
+
+	.Teemakuva {
+		background-image:url(./Pics_Kunnonrakennus/Teemakuva.1.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		
+	}
+
+	.headline {
+		color: floralwhite;
+		padding-top: 80px;
+		padding-bottom: 250px;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.style {
+		color: black;
+		margin: 30px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 5px;
+	}
+
+	.p0 {
+		font-size: 15px;
+		color: black;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 5px;
+		padding: 0px;
+	}
+
+	.p1 {
+		font-size: 20px;
+		color: black;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		padding: 0px;
+	}
+	
+	.p2 {
+		margin-left: 20px;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 40px;
+		font-size: 11px;
+		padding: 0px;
+	}
+
+
+	}
+
+
+
+/*
+@media screen and (max-width: 600px) {
+
+
+	.Teemakuva {
+		background-image: url(../Pics_Kunnonrakennus/Teemakuva.jpg);
+		width: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.headline {
+	font-size: 30px;
+	margin: 20px;
+
+
+	}
+
+}*/
